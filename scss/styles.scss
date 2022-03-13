@@ -1,0 +1,226 @@
+$mainColor: #fff;
+$mainColor2: blue;
+$mainFontFamily: Arial,
+"Helvetica Neue",
+Helvetica,
+sans-serif;
+$mainFontSize: 30px;
+$mainFontWeidth: bold;
+$maindesply: flex;
+$mainTextAlign: center;
+$mainStyletype: none;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $mainFontFamily;
+}
+
+.background {
+    background-image: url(/img/Rectangle_.png);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.menyu {
+    background-color: black;
+    border: 2px solid $mainColor;
+    padding: 20px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+    font-family: $mainFontFamily;
+    font-weight: $main;
+    font-size: $mainFontSize;
+}
+
+.color0 {
+    color: $mainColor2;
+    margin-left: 100px;
+}
+
+.color {
+    color: $mainColor;
+}
+
+.TextStyle {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $mainFontFamily;
+    font-weight: $mainFontWeidth;
+    margin-left: 30px;
+    color: $mainColor;
+}
+
+.gotoxy {
+    margin-left: 360px;
+}
+
+.text_style {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $mainFontFamily;
+    font-weight: $mainFontWeidth;
+    margin-left: 45px;
+    color: $mainColor2;
+}
+
+.body_mind_title {
+    margin-left: 700px;
+    margin-top: 200px;
+    padding-bottom: 300px;
+    width: 800px;
+    font-family: $mainFontFamily;
+    font-size: 36px;
+}
+
+.body_title {
+    color: $mainColor;
+}
+
+.bodyTitle {
+    color: $mainColor2;
+}
+
+.about_us {
+    background-image: url(/img/ABOUTUS.png);
+}
+
+.about_us_title {
+    padding-top: 50px;
+    text-align: $mainTextAlign;
+    color: $mainColor2;
+    font-size: $mainFontSize;
+}
+
+.about_us_text {
+    width: 800px;
+    padding: 30px 0 30px 300px;
+    color: $mainColor;
+    font-size: 24px;
+}
+
+.botton_text {
+    padding-bottom: 100px;
+}
+
+.bgi_services {
+    background-image: url(/img/SERVICES.png);
+}
+
+.services_title {
+    padding: 40px;
+    color: $mainColor2;
+    text-align: $mainTextAlign;
+}
+
+.ruyxat {
+    width: 1600px;
+    padding-top: 100px;
+    display: $maindesply;
+    flex-wrap: wrap;
+}
+
+.jadval {
+    width: 500px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+
+.ruyxat_title {
+    color: $mainColor2;
+    padding: 15px;
+}
+
+.ruyxat_element {
+    padding-left: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: $mainColor;
+}
+
+.LIST_TITLE {
+    text-align: $mainTextAlign;
+    color: $mainColor;
+    padding: 30px;
+}
+
+.MP_back_ground {
+    background-image: url(/img/PRICING.png);
+}
+
+.MP_title {
+    font-size: $mainFontSize;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: $mainTextAlign;
+    color: $mainColor2;
+}
+
+.MP_table {
+    justify-content: space-around;
+    display: $maindesply;
+    font-weight: wrap;
+}
+
+.MP_table_item {
+    padding-top: 80px;
+    padding-bottom: 200px;
+    line-height: 3em;
+    list-style-type: none;
+    color: $mainColor;
+}
+
+.MP_menyu {
+    font-size: $mainFontSize;
+    padding-bottom: 50px;
+    text-align: $mainTextAlign;
+    color: $mainColor2;
+}
+
+.MP_menyu_item {
+    font-size: 24px;
+    line-height: 3em;
+    list-style-type: none;
+}
+
+.contact_back_ground {
+    background-image: url(/img/CONTACT.png);
+}
+
+.CU_title {
+    padding-top: 50px;
+    text-align: $mainTextAlign;
+    color: $mainColor2;
+    font-size: $mainFontSize;
+    font-weight: 200;
+}
+
+.contact_date {
+    padding: 50px;
+    display: $maindesply;
+    justify-content: space-around;
+}
+
+.contact_title {
+    color: $mainColor2;
+}
+
+.CD_item {
+    color: $mainColor;
+}
+
+.CD_text {
+    line-height: 3em;
+}
+
+.contact_icons {
+    margin-left: 20px;
+}
